@@ -24,7 +24,7 @@ to improve layout skills and to learn javascript
 ___
 - HTML
 - CSS (Framework Bootstrap, Preprocessor SCSS, BEM methodology).
-- JavaScript ().
+- JavaScript.
 - Version control: Git (remote service GitHub, GitLab).
 - Module Bundlers: Gulp, Webpack.
 - Windows OS.
@@ -37,24 +37,26 @@ ___
 function sum(a, b) {
   return a + b;
 }
+
+let result = sum(1, 2);
+alert( result );
 ```
 
 ### Education
 ___
-Bachelor, Azerbaijan State Pedagogical University,Baku
-Faculty of Mathematics.
-IT-City Academy
-Basic knowledge of programming and algorithm knowledge using C language.
-Ecma-Code Education
-Basic and advanced knowledge of üeb development knowledge using JavaScript and React JS.
-Pragmatech Education
-Introduction to programming,Algorithms, Pseudocode, Syntax, Data Types, Operators. Booleans, CommandLine Interaction, Functions.
+- __Kazakh University of Railways__
+  - Radio Engineering, Electronics and Telecommunications
+- __Almaty State College of Energy and Electronic Technologies__
+  - Radio Engineering, Electronics and Telecommunications
+- __Skillbox__
+  - Web developer
+
 
 ### Experience
 ___
-Small own business – Fast-food delivery(Since 2014).
+I am currently working remotely at IntellectDialog and studying at the same time at Skillbox and RS School.
 
-I have little experience in JS and Frontend development. I have worked in the team on several small projects and currently working.
+Unfortunately, I have no experience in development, but I aspire to become a developer
 
 ### Languages
 ___
