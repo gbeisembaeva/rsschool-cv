@@ -1,16 +1,186 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
+
 <body>
-    <h1>Привет</h1>
-    <p>
-        Добавила тестовый текст
-    </p>
+  <header class="header">
+    <div class="container header__container">
+      <button id="burger" class="burger btn-reset">
+        <span class="burger__line"></span>
+      </button>
+      <nav class="nav" id="menu">
+        <ul class="nav__list list-reset">
+          <li class="nav__item"><a class="nav__link" href="#about--me">About me</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+          <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+          <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+          <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+          <li class="nav__item"><a class="nav__link" href="#courses">Courses</a></li>
+          <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+          <li class="nav__item"><a class="nav__link" href="#code-example">Code</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main__container">
+      <div class="block-hero">
+        <section class="hero">
+          <h2 class="visually-hidden">Hero</h2>
+          <picture>
+            <img class="hero__photo" src="img/photo.jpg" alt="Photo of Gulim Beisembayeva">
+          </picture>
+        </section>
+        <div class="hero__block-title">
+          <h1 class="hero__title">Gulim Beisembayeva</h1>
+          <h2 class="hero__subtitle">Junior Frontend Developer</h2>
+        </div>
+      </div>
+      <div class="column">
+        <div class="left-column">
+          <div class="block-about-me">
+            <section class="contacts" id="contact">
+              <h2 class="headline">Contacts</h2>
+              <ul class="contacts__list list-reset">
+                <li class="contacts__item">
+                  <img class="contacts__photo" src="img/phone.svg" alt="Phone Icon" width="30" height="30">
+                  <a class="contacts__link" href="tel:+77013488348" target="_blank">+7 (701) 348-83-48</a>
+                </li>
+                <li class="contacts__item">
+                  <img class="contacts__photo" src="img/email.svg" alt="Phone Icon" width="30" height="30">
+                  <a class="contacts__link" href="mailto:gbeisembaeva@gmail.com"
+                    target="_blank">gbeisembaeva@gmail.com</a>
+                </li>
+                <li class="contacts__item">
+                  <img class="contacts__photo" src="img/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                  <a class="contacts__link" href="https://t.me/gbeisembaeva" target="_blank">@gbeisembaeva</a>
+                </li>
+                <li class="contacts__item">
+                  <img class="contacts__photo" src="img/linkedin.svg" alt="LinkedIn Icon" width="30" height="30">
+                  <a class="contacts__link" href="https://www.linkedin.com/in/gbeisembaeva/">LinkedIn</a>
+                </li>
+              </ul>
+            </section>
+  
+            <section id="skills">
+              <h2 class="headline">Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item">HTML5, CSS3, BEM, Bootstrap</li>
+                <li class="skills__item">JavaScript Basics</li>
+                <li class="skills__item">Git, GitHub, GitLab</li>
+                <li class="skills__item">VS Code, IntelliJ IDEA</li>
+                <li class="skills__item">Adobe Photoshop</li>
+                <li class="skills__item">Figma</li>
+              </ul>
+            </section>
+  
+            <section id="languages">
+              <h2 class="headline">Languages</h2>
+              <ul>
+                <li>
+                  <p class="language__name">English</p>
+                  <p class="language__level">A2 (B1 in proccess...)</p>
+                </li>
+                <li>
+                  <p class="language__name">Russian</p>
+                  <p class="language__level">C2</p>
+                </li>
+                <li>
+                  <p class="language__name">Kazakh</p>
+                  <p class="language__level">Native</p>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+  
+        <div class="right-column">
+          <section id="About-me">
+            <h2 class="headline__right">
+              About me
+            </h2>
+            <div class="about-me__block-descrp">
+              <p class="about-me__descrp">
+                My specialty was originally "Radio Engineering, Electronics and Telecommunications", but I decided to
+                change my specialty to a web developer, as this has been my dream for a long time. And to achieve my goal,
+                I am currently studying at Skillbox as a web developer.
+              </p>
+              <p class="about-me__descrp">
+                And at the moment I am simultaneously working remotely in an Internet technology company, developing my
+                skills. I spend all my free time learning Frontend Development.
+                I believe that my ability to learn and acquire new skills will help me become an experienced Frontend
+                Developer.
+              </p>
+            </div>
+          </section>
+  
+          <section id="education">
+            <h3 class="headline__right">Education</h3>
+            <div class="education__block">
+              <h4 class="education__title">Humanitarian University of Transport and Law named after D.A. Kunaev</h4>
+              <p class="education_descrp">Faculty of Radio Engineering, Electronics and Telecommunications</p>
+              <p class="education_descrp">Specialization: Radio Engineering, Electronics and Telecommunications</p>
+            </div>
+          </section>
+  
+          <section id="courses">
+            <h3 class="headline__right">Courses</h3>
+            <ul class="courses__list">
+              <li class="courses__item">Web developer on Skillbox</li>
+              <li class="courses__item">JavaScript Manual on learnjavascript.ru</li>
+              <li class="courses__item">RS Schools «JavaScript/Front-end. Stage 0»</li>
+            </ul>
+          </section>
+  
+          <section id="projects">
+            <h3 class="headline__right">My projects</h3>
+            <ul class="courses__list">
+              <li class="courses__item">
+                <a class="projects-link" href="https://gbeisembaeva.github.io/Blanchard/">Course project</a>
+              </li>
+              <li class="courses__item">
+                <a class="projects-link" href="https://gbeisembaeva.github.io/bootstrap/">Bootstrap</a>
+              </li>
+            </ul>
+          </section>
+  
+          <section id="code-example">
+            <h3 class="headline__right">Code examples</h3>
+            <pre>
+              <code>
+  function factorial(n) {
+    if (n ❮ 0) return null;
+    if (n === 0) return 1;
+    return n * factorial(n-1);
+  }
+              </code>
+            </pre>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer__container">
+      <a class="footer__github" href="https://github.com/gbeisembaeva">
+        <img class="footer__github-icon" src="img/github.svg" alt="Github Icon">
+        <p class="footer__text">Visit my GitHub</p>
+      </a>
+      <p>© 2022</p>
+      <a href="https://rs.school/js/">
+        <img src="img/rs_school_js.svg" alt="Rsschool Icon" class="footer__icon-rs">
+      </a>
+    </div>
+  </footer>
 </body>
+
 </html>
